@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    max-width: 100%;
+    height: 150vh;
+    background-image: url(https://templatemo.com/templates/templatemo_504_page_one/img/bg-01.jpg);
+    background-attachment: fixed;
+}
+
+.sample {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.basliq {
+    width: 300px;
+    height: 116px;
+    background-color: transparent;
+    border: 2px solid #888481;
+    padding: 30px 40px;
+    margin: 100px;
+}
+
+.basliq h1 {
+    color: #676362;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: .5rem;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.body__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    width: 600px;
+    height: 600px;
+    background-color: #ffffff;
+    padding: 50px;
+    margin-right: 40%;
+}
+
+.body h2 {
+    color: #96C700;
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.body .body__item {
+    width: 500px;
+    line-height: 1.8;
+    margin-bottom: 50px;
+    font-size: 23px;
+    color: #676362;
+}
+
+.body__item a {
+    text-decoration: none;
+    color: #0275d8;
+}
+
+.body__finish {
+    color: #676362;
+    line-height: 1.8;
+    margin-bottom: 50px;
+    font-size: 23px;
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+    padding-left: 30%;
+}
+
+.click button {
+    text-transform: capitalize;
+    padding: 20px 40px;
+    font-size: 28px;
+    color: #ffffff;
+    background-color: #983333;
+    border: none;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+.click button:hover {
+    background-color: #a82525;
+    opacity: 1;
+}
+
+.content {
+    max-width: 100%;
+    height: 160vh;
+    background-image: url(https://templatemo.com/templates/templatemo_504_page_one/img/bg-02.jpg);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content .box {
+    width: 600px;
+    height: 160vh;
+    margin-right: 15%;
+    background: #ffffff94;
+}
+
+.box h2 {
+    text-transform: capitalize;
+    color: #3690FD;
+    font-family: "Open Sans", sans-serif;
+    font-size: 42px;
+    margin: 32px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.fox {
+    color: #606368;
+    line-height: 1.8;
+    margin-bottom: 50px;
+    font-size: 23px;
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.box i {
+    font-weight: 300;
+    font-size: 100px;
+    color: #606368;
+}
+
+.cards {
+    width: 500px;
+    line-height: 1.8;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #676362;
+    padding-left: 20px;
+}
+
+.border {
+    max-width: 100%;
+    height: 170vh;
+    background-image: url(https://templatemo.com/templates/templatemo_504_page_one/img/bg-03.jpg);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border__head {
+    width: 90%;
+    height: 900px;
+    margin-bottom: 5%;
+    padding: 50px;
+}
+
+.border__head h2 {
+    margin-bottom: 2rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 42px;
+    color: #606368;
+    font-weight: 400;
+    margin-left: 5%;
+}
+
+.border__body {
+    width: 650px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.border__body .begin {
+    width: 120px;
+    height: 40px;
+    background-color: #ffffff;
+    padding: 6px 20px;
+    font-size: 21px;
+    color: #666666;
+    font-weight: 500;
+}
+
+.border__body .begin1 {
+    width: 120px;
+    height: 40px;
+    color: #ffffff;
+    padding: 6px 20px;
+    font-size: 21px;
+    background-color: #666666;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.picture {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foto img {
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.layout {
+    width: 100%;
+    height: 150vh;
+    background-image: url(https://templatemo.com/templates/templatemo_504_page_one/img/bg-04.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.layout_head {
+    width: 600px;
+  height:100%;
+    background: #ffffff94;
+   
+}
+
+.layout_head h2 {
+    color: #983333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    padding-top: 30%;
+    padding-left: 3%;
+}
+
+.layout_head p {
+    color: #606368;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    font-size: 23px;
+    padding: 20px;
+    text-align: left;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form input {
+    width: 85%;
+    padding: 15px 40px;
+    margin: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    border: 1px solid #888481;
+    color: #606368;
+}
+
+.form textarea {
+    width: 85%;
+    padding: 15px 20px;
+    margin: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    border: 1px solid #888481;
+    color: #606368;
+}
+
+.form input:hover,
+.form textarea:hover {
+    border: 2px solid #a82525;
+    cursor: pointer;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55%;
+}
+
+.download button {
+    text-transform: capitalize;
+    padding: 20px 40px;
+    font-size: 28px;
+    color: #ffffff;
+    background-color: #983333;
+    border: none;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+.download button:hover {
+    background-color: #a82525;
+    opacity: 1;
+}
+.html{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+ .html .site {
+ color: #ffffff;
+ font-size: 20px;
+ font-family: "Open Sans", sans-serif;
+ padding: 20px;
+}
+
+
+.card_head {
+    width: 100%;
+    height: 100vh;
+   background-color: white;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.card_item {
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5117862ae4b0cd4cc717de99/1601564799627-2WD6N1OMQGUB7130X925/Corporate-Photographer-UK-London-CEO-Portrait-Photography-%C2%A9-Scott-Ramsey-www.scottramsey.co.uk.jpg?format=1500w);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 2px 3px 27px -3px rgba(93,76,76,0.56);
+    -webkit-box-shadow: 2px 3px 27px -3px rgba(93,76,76,0.56);
+    -moz-box-shadow: 2px 3px 27px -3px rgba(93,76,76,0.56);
+    position: relative;
+}
+
+.card_item2 {
+width: 50%;
+height: 100%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.card_top{
+    width: 100%;
+    height: 60%;
+    background-color: azure;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 3px 27px -3px rgba(93,76,76,0.56);
+    -webkit-box-shadow: 2px 3px 27px -3px rgba(93,76,76,0.56);
+    -moz-box-shadow: 2px 3px 27px -3px rgba(93,76,76,0.56);
+    font-family: "Open Sans", sans-serif;
+}
+.card_top h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.card_top h3 {
+    margin: 20px 0px;
+    font-size: 25px;
+}
+.card_top .page {
+    width: 90%;
+   color: #888481;
+    margin: 10px 0px;
+    line-height: 1.8;
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+}
+.card_bottom{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    gap: 25px;
+ 
+}
+.card_left{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(206, 47, 47);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  gap: 20px;
+    padding: 30px;
+    box-shadow: 2px 3px 27px -3px rgba(93,76,76,0.56);
+    -webkit-box-shadow: 2px 3px 27px -3px rgba(93,76,76,0.56);
+    -moz-box-shadow: 2px 3px 27px -3px rgba(93,76,76,0.56);
+}
+.card_left h2 {
+    width: 80%;
+    padding: 20px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+
+}
+.card_left .button {
+width:100px;
+height: 40px;
+background-color:rgb(232, 197, 22);
+text-align: center;
+border-radius: 30px;
+color: white;
+font-family: "Open Sans", sans-serif;
+font-weight: 700;
+padding: 10px;
+cursor: pointer;
+margin-left: 15px;
+}
+.card_rigth{
+    width: 50%;
+    height: 100%;
+    background-color:rgb(232, 197, 22);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px;
+    box-shadow: 2px 3px 27px -3px rgba(93,76,76,0.56);
+    -webkit-box-shadow: 2px 3px 27px -3px rgba(93,76,76,0.56);
+    -moz-box-shadow: 2px 3px 27px -3px rgba(93,76,76,0.56);
+
+}
+.card_rigth h2 {
+    width: 90%;
+    padding: 30px;
+    color: white;
+}
+.card_rigth p {
+    width: 80%;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: 400;
+}
+.card_type{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+.card_item .card_type {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    
+}
